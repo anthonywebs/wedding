@@ -53,7 +53,7 @@ function playNext() {
 }
 
 function playMusic() {
-  window.document.querySelector('audio').play();
+  document.getElementById('js-audio').play();
   $('#js-owner').text(SONG_LIST[SONG_TRACK].owner);
   $('#js-music-title').text(SONG_LIST[SONG_TRACK].title);
   $('#js-cover-greeting').hide();
